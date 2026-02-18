@@ -63,5 +63,23 @@
     "n_heads": 4,
     "d_ff": 256,
     "block_size": 64
+  },
+  {
+    "model": "GPT-Tiny (full)",
+    "parameters": 873216,
+    "val_loss": 3.0061823463439943,
+    "d_model": 128,
+    "n_layers": 4,
+    "n_heads": 4,
+    "block_size": 128
+  },
+  {
+    "model": "GPT-Small (full)",
+    "parameters": 6507008,
+    "val_loss": 2.84153666973114,
+    "d_model": 256,
+    "n_layers": 8,
+    "n_heads": 8,
+    "block_size": 256
   }
 ]
