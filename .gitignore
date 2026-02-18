@@ -1,0 +1,5 @@
+.vscode/
+__pycache__/
+*.pyc
+build_nb*.py
+.ipynb_checkpoints/

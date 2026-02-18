@@ -1,0 +1,67 @@
+[
+  {
+    "model": "Bigram",
+    "parameters": 262144,
+    "train_loss": 3.4664657628536224,
+    "val_loss": 3.6822593247890474,
+    "block_size": 64,
+    "batch_size": 32,
+    "learning_rate": 0.001,
+    "max_steps": 10000,
+    "vocab_size": 512
+  },
+  {
+    "model": "SingleHead Attention",
+    "parameters": 82432,
+    "val_loss": 3.6529390954971315,
+    "d_model": 64,
+    "block_size": 64,
+    "n_heads": 1,
+    "max_steps": 5000
+  },
+  {
+    "model": "MultiHead Attention",
+    "parameters": 86528,
+    "val_loss": 3.3817669069767,
+    "d_model": 64,
+    "block_size": 64,
+    "n_heads": 4,
+    "max_steps": 5000
+  },
+  {
+    "model": "+ FFN",
+    "parameters": 119616,
+    "val_loss": 3.2946683204174043,
+    "d_model": 64,
+    "n_heads": 4,
+    "d_ff": 256,
+    "block_size": 64
+  },
+  {
+    "model": "+ FFN + Norm",
+    "parameters": 119872,
+    "val_loss": 3.274262773990631,
+    "d_model": 64,
+    "n_heads": 4,
+    "d_ff": 256,
+    "block_size": 64
+  },
+  {
+    "model": "1-Block Transformer",
+    "parameters": 120000,
+    "val_loss": 3.1787680172920227,
+    "d_model": 64,
+    "n_heads": 4,
+    "d_ff": 256,
+    "block_size": 64
+  },
+  {
+    "model": "4-Block Transformer",
+    "parameters": 269184,
+    "val_loss": 3.0621380019187927,
+    "d_model": 64,
+    "n_heads": 4,
+    "d_ff": 256,
+    "block_size": 64
+  }
+]
